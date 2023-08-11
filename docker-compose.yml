@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+    bot:
+        build: .
+        environment:
+            - X_API_KEY=${X_API_KEY}
+            - X_API_KEY_SECRET=${X_API_KEY_SECRET}
+            - X_BEARER_TOKEN=${X_BEARER_TOKEN}
+            - X_ACCESS_TOKEN=${X_ACCESS_TOKEN}
+            - X_ACCESS_TOKEN_SECRET=${X_ACCESS_TOKEN_SECRET}
+            - OPENAI_API_KEY=${OPENAI_API_KEY}
+            - OPENAI_MODEL=${OPENAI_MODEL}
+            - PROMPT=${PROMPT}

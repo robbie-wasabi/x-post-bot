@@ -1,4 +1,6 @@
-# Giraffe 
+# X (Twitter) Post Bot
+
+Simple automated post bot. Generates posts with OpenAI's ChatGPT and publishes them on a schedule.
 
 ## Development
 
@@ -12,22 +14,12 @@ install dependencies
 $ make setup
 ```
 
-run api
-```bash
-$ make api
-```
-
 run app
 ```bash
 $ make app
 ```
 
-## TODO
-
-[ ] rent per unit
-[ ] EGI (effective gross income)
-[ ] total operating expenses
-[ ] expense ratio
-[ ] NOI (net operating income)
-[ ] input a cap (capitalization) rate and output (NOI/cap rate)
-[ ] input a loan amount and calculate debt yield (NOI/loan amount)
+run with docker-compose:
+```bash
+$ make docker-compose
+```

@@ -1,4 +1,4 @@
-# X (Twitter) Post Bot
+# X/Twitter Post Bot
 
 Simple automated post bot. Generates posts with OpenAI's ChatGPT and publishes them on a schedule.
 
